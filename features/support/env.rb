@@ -12,6 +12,7 @@ Before do
   @browser = Selenium::WebDriver.for :chrome, desired_capabilities: caps
   puts @browser.capabilities.browser_name + " " + @browser.capabilities.version
   @domain = "https://www.stitchfix.com/"
+  @search = Search.new(@browser)
 end
 
 After do 
