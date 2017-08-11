@@ -18,5 +18,5 @@
 4. ```cd sf_cukes```
 5. ```gem install bundler```
 6. ```bundle install```
-7. ```cucumber features```
-8. Visit test results at [CukeHub](https://cukehub.com/apps/48) and manually test yellow pending cukes.
+7. ```cucumber features``` (runs in headless chrome)
+8. View cuke results at [CukeHub](https://cukehub.com/apps/48) and manually test yellow pending cukes.
