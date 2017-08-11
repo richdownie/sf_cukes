@@ -8,7 +8,7 @@
 * [Selenium-Webdriver](https://rubygems.org/gems/selenium-webdriver) is a tool for writing automated tests of websites. It aims to mimic the behaviour of a real user, and as such interacts with the HTML of the application.
 * [RSpec](http://rspec.info/)
 * [Page Objects](https://rubygems.org/gems/page-object) Page Object DSL that works with both Watir and Selenium.
-* [FSAR](http://fullstackautomationwithruby.com/) (FREE) Online sessions that teach you how to automation web applications with Ruby. 
+* [FSAR](http://fullstackautomationwithruby.com/) (FREE) Online sessions that teach you how to automate web applications with Ruby. 
 
 ### Get Started
 
@@ -19,15 +19,4 @@
 5. ```gem install bundler```
 6. ```bundle install```
 7. ```cucumber features```
-
-
-### Git Flow (branch and merge)
-
-1. ```cd sf_cukes```
-2. ```git checkout -b <branch-name>```
-3. ```git branch``` make sure you are on the new branch
-4. Make code changes or add new feature/scenario
-5. ```git add .```
-6. ```git commit -m '<add message>'```
-7. ```git push origin <branch-name>```
-8. Visit [github](https://github.com/richdownie/sf_cukes) and use UI to Create Merge Request
+8. Visit test results at [CukeHub](https://cukehub.com/apps/48) and manually test yellow pending cukes.
