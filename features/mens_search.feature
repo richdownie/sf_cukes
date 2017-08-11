@@ -5,15 +5,15 @@ mens style guide page.
 
 Scenario: Search for mens tees
   Given I am on the mens style guide page
-  And I serach for "T-Shirt"
+  And I search for "T-Shirt"
   Then I should see "The Ultimate T-Shirt Guide" on the page
 
 Scenario: Search for mens shoes
   Given I am on the mens style guide page
-  And I serach for "shoes"
+  And I search for "shoes"
   Then I should see "Shoe" on the page
 
 Scenario: Search for mens ties
   Given I am on the mens style guide page
-  And I serach for "ties"
+  And I search for "ties"
   Then I should see "belts" on the page
