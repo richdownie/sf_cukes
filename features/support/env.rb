@@ -9,7 +9,7 @@ caps = Selenium::WebDriver::Remote::Capabilities.chrome(chromeOptions: { args: [
 
 Before do
   @cukehub_api_key = "xKaHVEXdGcFd5anETM1bR4Co"
-  @browser = Selenium::WebDriver.for :chrome
+  @browser = Selenium::WebDriver.for :chrome, desired_capabilities: caps
   puts @browser.capabilities.browser_name + " " + @browser.capabilities.version
   @domain = "https://www.stitchfix.com/"
 end
